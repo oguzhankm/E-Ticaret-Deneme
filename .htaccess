@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule	^anasayfa$	/index.php?SK=0 [L,NC]
+RewriteRule	^uye-giris$	/index.php?SK=31 [L,NC]
+RewriteRule	^yeni-uye-kayit$	/index.php?SK=22 [L,NC]
+RewriteRule	^hakkimizda$	/index.php?SK=1 [L,NC]
+
+RewriteRule	^kadin-ayakkabilari$	/index.php?SK=85 [L,NC]
+RewriteRule	^kadin-ayakkabilari/(.*)/(.*)$	/index.php?SK=83&ID=$2 [L,NC]
+
+
+RewriteRule	^erkek-ayakkabilari$	/index.php?SK=84 [L,NC]
+RewriteRule	^erkek-ayakkabilari/(.*)/(.*)$	/index.php?SK=83&ID=$2 [L,NC]

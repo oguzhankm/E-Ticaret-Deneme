@@ -1,0 +1,3 @@
+windows + r tuşu 
+
+C:\Windows\system32\ctfmon.exe

@@ -1,0 +1,28 @@
+{
+  "Firma" : "Ekstra Eğitim",
+  "Yonetici" : "Volkan Alakent",
+  "Egitimler" : [
+      "HTML",
+      "CSS",
+      "JS",
+      "PHP"
+  ],
+  "Egitmenler"  : [
+    {
+        "Adı" : "Hakan Alakent",
+        "Ders" : "HTML"
+    },
+    {
+      "Adı" : "Onur Tatlı",
+      "Ders" : "CSS3"
+    },
+    {
+      "Adı" : "Serkan Zabun",
+      "Ders" : "JS"
+    },
+    {
+      "Adı" : "Oğuzhan Karahan",
+      "Ders" : "PHP"
+    }
+  ]
+}
